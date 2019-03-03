@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.trakt" name="Trakt" version="3.2.1" provider-name="Trakt.tv, Razzeee">
+<addon id="script.trakt" name="Trakt" version="3.2.2" provider-name="Trakt.tv, Razzeee">
 	<requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.trakt" version="2.12.0"/>
@@ -9,7 +9,7 @@
 	<extension point="xbmc.python.script" library="defaultscript.py">
 		<provides>executable</provides>
 	</extension>
-	<extension point="xbmc.service" name="trakt.service" library="default.py" start="login" />
+	<extension point="xbmc.service" name="trakt.service" library="default.py" />
 	<extension point="xbmc.addon.metadata" name="trakt.metadata">
 		<summary lang="da_DK">TV og film program for Trakt.tv</summary>
 		<summary lang="de_DE">TV und Film Scrobbler für Trakt.tv</summary>
@@ -56,8 +56,8 @@
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=220547</forum>
-		<website>http://trakt.tv</website>
+		<forum>https://forum.kodi.tv/showthread.php?tid=220547</forum>
+		<website>https://trakt.tv</website>
 		<email></email>
 		<source>https://github.com/trakt/script.trakt</source>
 		<news>  - Use correct hook into kodi 18</news>
